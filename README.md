@@ -35,5 +35,14 @@ Dataset contains 11 Features
 | Transmission | Type of transmission (Automatic/Manual)                       | string    |
 | Fuel Type    | Type of fuel used (e.g., Gasoline, Diesel, Hybrid)            | string    |
 | Color        | Exterior color of the car                                     | string    |
-| Location     | City where the car is being sold (e.g., Dubai, Abu Dhabi)     | string    |
+| Location     | City where the car is available (e.g., Dubai, Abu Dhabi)      | string    |
 | Description  | Additional details about the car (features, condition)        | string    |
+
+## dataset pre processing steps
+### 1. handle missing values
+### 2. remove duplicates
+### 3. handle outliers
+### 4. Feature Engineering
+### 5. encode categorical variables
+### 6. normalize numerical features
+### 7. remove irrelevant columns
