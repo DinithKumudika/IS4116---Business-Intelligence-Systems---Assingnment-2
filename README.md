@@ -12,3 +12,28 @@ This dataset contains 10,000+ used car listings from the UAE market with detaile
 ✔ Realistic price variations based on UAE market conditions
 ✔ Includes damage reports and custom descriptions
 ✔ Ideal for Machine Learning, Data Analysis, and AI-powered price prediction
+
+### Potential Use Cases
+🔹 Car Price Prediction using Machine Learning
+🔹 Car Market Trends Analysis in the UAE
+🔹 AI-powered Auction Pricing Models
+🔹 Car Resale Value Estimation
+
+### Dataset Features
+
+Dataset contains 11 Features
+
+| Feature      | Description                                                   | Data Type |
+|--------------|---------------------------------------------------------------|-----------|
+| Make         | Brand of the car (e.g., Toyota, Nissan)                       | string    |
+| Model        | Specific model of the car (e.g., Camry, Altima)               | string    |
+| Year         | Manufacturing year of the car                                 | integer   |
+| Price        | Selling price of the car in AED (United Arab Emirates Dirham) | integer   |
+| Mileage      | Distance the car has traveled (in kilometers)                 | integer   |
+| Body Type    | Car type classification (e.g., Sedan, SUV)                    | string    |
+| Cylinders    | Number of engine cylinders                                    | string    |
+| Transmission | Type of transmission (Automatic/Manual)                       | string    |
+| Fuel Type    | Type of fuel used (e.g., Gasoline, Diesel, Hybrid)            | string    |
+| Color        | Exterior color of the car                                     | string    |
+| Location     | City where the car is being sold (e.g., Dubai, Abu Dhabi)     | string    |
+| Description  | Additional details about the car (features, condition)        | string    |
