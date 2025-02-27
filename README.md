@@ -1,25 +1,26 @@
 
 #### Dataset Link: https://www.kaggle.com/datasets/alikalwar/uae-used-car-prices-and-features-10k-listings
 
-## About Dataset
-
-### Dataset Overview
+### About Dataset
+---
+#### Dataset Overview
 This dataset contains 10,000+ used car listings from the UAE market with detailed features, pricing, and conditions. Whether you're analyzing market trends, building price prediction models, or training AI models for car valuation, this dataset is designed to provide real-world insights.
 
-### Key Features
+#### Key Features
 ✔ 10,000+ used car records from the UAE 🇦🇪
 ✔ Includes Make, Model, Year, Mileage, Price, Body Type, Transmission, Fuel Type, and Color
 ✔ Realistic price variations based on UAE market conditions
 ✔ Includes damage reports and custom descriptions
 ✔ Ideal for Machine Learning, Data Analysis, and AI-powered price prediction
 
-### Potential Use Cases
+#### Potential Use Cases
 🔹 Car Price Prediction using Machine Learning
 🔹 Car Market Trends Analysis in the UAE
+
 🔹 AI-powered Auction Pricing Models
 🔹 Car Resale Value Estimation
 
-### Dataset Features
+#### Dataset Features
 
 Dataset contains 11 Features
 
@@ -38,11 +39,20 @@ Dataset contains 11 Features
 | Location     | City where the car is available (e.g., Dubai, Abu Dhabi)      | string    |
 | Description  | Additional details about the car (features, condition)        | string    |
 
-## dataset pre processing steps
-### 1. handle missing values
-### 2. remove duplicates
-### 3. handle outliers
-### 4. Feature Engineering
-### 5. encode categorical variables
-### 6. normalize numerical features
-### 7. remove irrelevant columns
+### dataset pre processing steps
+---
+#### 1. handle missing values (ex-:Cylinders)
+#### 2. remove duplicates
+#### 3. handle outliers (ex-:Price)
+#### 4. Feature Engineering
+#### 5. encode categorical variables
+#### 6. normalize numerical features
+#### 7. remove irrelevant columns
+
+### Data Analysis
+
+---
+
+### Selling Price Prediction using Regression
+---
+
