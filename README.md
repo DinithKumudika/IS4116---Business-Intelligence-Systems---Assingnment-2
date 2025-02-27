@@ -50,9 +50,61 @@ Dataset contains 11 Features
 #### 7. remove irrelevant columns
 
 ### Data Analysis
-
 ---
+- ##### Summary statistics for numerical features
+- ##### Distribution of categorical features
+- ##### Price distribution using histogram and box plot
+- ##### Log transformed price distribution using histogram
+- ##### Manufature year distribution using histogram
+- ##### Mileage distribution using histogram and box plot
+- ##### Mileage per year distribution using histogram and box plot
+- ##### Cylinders distribution using bar chart
+- ##### Summary statistics for categorical features
+- ##### Body , vehical make, model analysis using bar chart
+- ##### Transimission analysis using pie chart
+- ##### Fuel Type, Color analysis using bar chart
+- ##### Mileage vs Price analysis using scatterplot
+- ##### Manufactured year vs Price anaysis using scatterplot
+- ##### Average Price per Age with standard deviation
+- ##### Price distribution by body type using box plots
+- ##### Price distibution by top 10 Make using box plots
+- ##### Price distribution by Transmission using box plots
+- ##### Price distribution by Fuel Type using box plots
+- ##### Price distibution by top 10 Colors using box plots
+- ##### Correlation between numerical features
+- ##### K-means clustering to identify clusters based on Mileage, Car Age and No of Cylinders compare to Price
 
 ### Selling Price Prediction using Regression
 ---
+- ##### Train linear regresssion using standardized and encoded features as predictors
+- ##### Evaluate regresssion model using r squared score, MAE, MSE and RMSE
+- ##### Compare actual prices and predicted prices
 
+### Project Setup
+---
+
+#### Prerequisites
+
+Ensure you have the following installed on your system:
+
+- Python (>= 3.8)
+
+- Git
+- pip (optional)
+- Kaggle API credentials (for dataset access)
+
+#### Cloning the Repository
+
+```
+git clone https://github.com/DinithKumudikaIS4116---Business-Intelligence-Systems---Assingnment-2.git
+
+cd IS4116---Business-Intelligence-Systems---Assingnment-2
+```
+
+#### Setting Up Kaggle Hub Credentials
+
+1. Log in to Kaggle and navigate to Account settings.
+2. Scroll down to the API section and click Create New API Token.
+3. This will download a kaggle.json file containing your API credentials.
+4. Move this file to the appropriate directory
+5. create .env file following .env.example add username and key
